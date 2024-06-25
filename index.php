@@ -19,7 +19,7 @@ $todos = json_decode($list, true);
             </div>
             <div class="card-footer">
                 <?php foreach ($todos as $todoName => $item): ?>
-                    <ul style="list-style:none;">
+                    <ul style="list-style:none;"> 
                         <li>
                             <form action="change_checkbox.php" method="post" style="display:inline-block;">
                                 <input type="hidden" name="todo_name" value="<?php echo $todoName; ?>">
