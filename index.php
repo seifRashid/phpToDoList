@@ -47,4 +47,4 @@ $todos = json_decode($list, true);
         }
     })
 </script>
-<?php include 'footer.php'; ?>
+<?php include 'footer.php'; ?>   
